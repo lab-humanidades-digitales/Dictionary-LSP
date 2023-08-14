@@ -1,0 +1,119 @@
+h3.title{
+    margin: 0;
+}
+h3.title:hover{
+    color: var(--azul);
+}
+p.abstract{
+    font-size: 0.875rem;
+    /*margin-bottom: 0;*/
+}
+ul.tags{
+    display: none;
+}
+ul.tags>span{
+    display: inline-block;
+    font-style: italic;
+    color: var(--color-txt);
+    font-size: 0.875em;
+}
+li.item{
+    display: block;
+}
+li.item:hover{
+    border-bottom-color: #777;
+}
+li.item ul{
+    display: flex;
+}
+li.item .thumbnail{
+    grid-area: 1 / 1 / 4 / 2;
+}
+li.item .thumbnail img{
+    max-width: 200px;
+    max-height: 200px;
+}
+li.item .info .authors{
+    display: inline;
+}
+li.item .info .authors::before{
+    display: inline-block;
+    content: "Por | ";
+}
+li.item .info span{
+    font-size: 0.75rem;
+    color: var(--color-txt);
+}
+li.item .info ul.authors li{
+    margin-right: 5px;
+}
+li.item .info .authors .author:not(:last-of-type)::after{
+    display: inline-block;
+    content: "; ";
+}
+li.item .info .publisher::before{
+    display: inline-block;
+    content: " (";
+}
+li.item .info .publisher::after{
+    display: inline-block;
+    content: ", ";
+}
+li.item .info .date::after{
+    display: inline-block;
+    content: ") ";
+}
+.tag{
+    font-size: .8em;
+    display: flex;
+    align-items: center;
+    background-color: #efefef;
+    margin-left: 5px;
+    border-radius: 4px;
+    position: relative;
+    color: #777;
+}
+.tag:hover {
+    background-color: gray;
+    color: white;
+}
+.tag:hover::before {
+    border-right-color: gray;
+}
+.tag a{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: auto;
+    height: 100%;
+    padding: 0 15px 0 18px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0 4px 4px 1px;
+}
+.tag::before {
+    background: #fff;
+    border-bottom: 10px solid transparent;
+    border-right: 7px solid #efefef;
+    border-top: 10px solid transparent;
+    content: ' ';
+    right: 0;
+    top: 0;
+}
+.tag::after {
+    position: absolute;
+    left: 10px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: inset 1px 1px rgba(0, 0, 0, 0.25);
+    content: ' ';
+    height: 6px;
+    left: 10px;
+    width: 6px;
+    top: 7px;
+}
+@media (min-width: 480px) {
+    
+    ul.tags{
+        display: block;
+    }
+}

@@ -1,0 +1,1 @@
+Place where is located the .pth file when training the model 

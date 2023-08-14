@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+    <link rel="stylesheet" href="lib/bootstrap-reboot.css" />
+    <link rel="stylesheet" href="lib/lsp.css" />
+    <link rel="stylesheet" href="lib/item.css" />
+    <link rel="stylesheet" href="lib/categorias.css" />
+    <script src="https://kit.fontawesome.com/b2cdd38900.js"></script>
+    <script type="text/javascript" src="lib/lsp.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+    <script src="js/jquery-3.2.1.js"></script>
+
+    <title>Dictionary LSP</title>
+</head>
+
+<body>
+    <header>
+        <div class="lsp-header">
+            <nav class="nav-main">
+                <div class="container">
+                    <ul class="nav-left">
+                        <li class="dp-small">
+                            <a href="dp-small"><img src="images/logo_pucp_small.png" alt="" class="logo logo-pucp" /></a>
+                        </li>
+                        <li class="dp-normal">
+                            <a href=""><img src="images/logo_pucp_normal.png" alt="" class="logo logo-pucp" /></a>
+                        </li>
+                    </ul>
+                    <h3>DICCIONARIO DE LSP AL ESPAÑOL</h3>
+                </div>
+            </nav>
+        </div>
+    </header>
+  
+    <main>
+        <div class="lsp-error">
+           <p>La página que buscas no existe</p>
+        </div>    
+        
+        <section class="products-list" id="products-list">
+        </section>
+        <section class="products-list" id="sentences-list">
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>© Dictionary LSP - Todos los derechos reservados</p>
+        </div>
+    </footer>
+    
+</body>
+<script src="./js/search.js"></script>
+<script src="./js/sentences_search.js"></script>
+
+</html>

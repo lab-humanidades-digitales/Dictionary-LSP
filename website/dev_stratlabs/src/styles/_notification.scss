@@ -1,0 +1,28 @@
+.notification-info {
+  background-color: rgb(217, 237, 255);
+  border-left-color: #1277d4;
+}
+
+.text-info {
+  color: #1277d4;
+}
+
+.icon-info {
+  fill: #1277d4;
+}
+
+.notification-animation {
+  opacity: 0;
+  animation: FadeIn 1s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+}
+
+@keyframes FadeIn {
+  10% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(4rem);
+    opacity: 1;
+  }
+}

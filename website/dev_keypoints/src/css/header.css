@@ -1,0 +1,71 @@
+/* header.css */
+@import url("./colors.css");
+
+
+/* Base styles for the header */
+.header {
+    left: 0;
+    right: 0;
+    top: 0;
+  }
+  
+  .header__logo {
+    width: 13vw;
+    padding-right: 1vw;
+  }
+  
+  .navbar {
+    width: 100%;
+    padding: 0.2vw;
+    padding-right: 0;
+    padding-left: 0;
+    background-color: var(--primary);
+    /* Add any additional styles for the navbar */
+  }
+  
+  .header__title {
+    display: flex;
+    align-items: center;
+    font-size: 2vw;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  
+  .header__container {
+    background-color: var(--secondary);
+    padding: 1vw;
+  }
+  
+  .header__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header__buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.05vw;
+    margin-top: 0.05vw;
+  }
+  
+  /* Styles for the buttons within the header */
+  .button {
+    background-color: var(--header-button);
+    padding: 0.5vw;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: small;
+    color: white;
+    margin-right: 1vw;
+    transition: background-color 0.3s;
+    opacity: 1;
+    text-decoration: none; 
+  }
+  .button:hover {
+    background-color: var(--header-button-click);
+  }
+  .button-text{
+    color: white; /* Opacidad del texto al 100% */
+  }

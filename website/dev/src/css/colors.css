@@ -1,0 +1,12 @@
+:root {
+    --primary: #163297;
+    --secondary: #042354;
+    --header-button: #6F6F6F;
+    --header-button-click: #6f6f6f7e;
+    --color-txt: #6F6F6F;
+    --hover-nav: rgba(0, 0, 0, 0.3);
+    --bs-nav: rgba(43, 43, 43, .4);
+    --bs-input: rgba(0, 113, 184, 0.5);
+    --bd-input: rgba(56, 181, 230, 0.75);
+    --bx-shadow: 0 2px 5px 0 var(--bs-nav);
+}

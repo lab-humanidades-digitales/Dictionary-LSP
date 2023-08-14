@@ -1,0 +1,36 @@
+
+.instrucciones-container{
+  
+   
+}
+
+.instructions-components{
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  padding: 1vw;
+}
+.lead-title{
+  font-size: x-large;
+}
+.lead{
+  font-size: medium;
+}
+
+.init-button {
+  background-color: var(--secondary);
+  padding: 0.7vw;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: small;
+  color: white;
+  margin-right: 1vw;
+  opacity: 1;
+  text-decoration: none; 
+}
+.init-button:hover {
+  -webkit-filter: brightness(1.6);
+  filter: brightness(1.6);
+}
+.init-button-text{
+  color: white; /* Opacidad del texto al 100% */
+}

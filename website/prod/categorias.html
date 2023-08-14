@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+    <link rel="stylesheet" href="lib/bootstrap-reboot.css" />
+    <link rel="stylesheet" href="lib/categorias.css" />
+    <link rel="stylesheet" href="lib/item.css" />
+    <script src="https://kit.fontawesome.com/b2cdd38900.js"></script>
+    <script type="text/javascript" src="lib/lsp.js"></script>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/search_script.js"></script>
+
+    <title>Dictionary LSP</title>
+</head>
+
+<body>
+    <header>
+        <div class="lsp-header">
+            <nav class="nav-main">
+                <div class="container">
+                    <ul class="nav-left">
+                        <li class="dp-small">
+                            <a href="dp-small"><img src="images/logo_pucp_small.png" alt="" class="logo logo-pucp" /></a>
+                        </li>
+                        <li class="dp-normal">
+                            <a href=""><img src="images/logo_pucp_normal.png" alt="" class="logo logo-pucp" /></a>
+                        </li>
+                    </ul>
+                    <h3>DICCIONARIO DE LSP AL ESPAÑOL</h3>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="lsp-trail">
+        <nav class="nav-sec">
+            <span class="btn-nav fas fa-ellipsis-v" onclick="actionTopbar()"></span>
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="#">BÚSQUEDA</a></li>
+                <li class="active"><a href="">CATEGORÍAS</a></li>
+                <li><a href="#">EQUIPO</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <div class="lsp-search">
+            <div class="container">
+                <div class="search-options">
+                    <input type="text" id="inputSearch" placeholder="Buscar" class="lsp-form" onkeyup="search()"/>
+                    <button class="lsp-btn" id="search"><span class="fas fa-search"></span></button>
+                </div>
+            </div>
+        </div>    
+        
+        <div class="container">
+            <div class="category-wrapper">
+                <div class="category_list">
+                    <a href="#" class="category_item" category="all">Todos</a>
+                    <a href="#" class="category_item" category="adjectives">Adjetivos</a>
+                    <a href="#" class="category_item" category="family">Familia</a>
+                    <a href="#" class="category_item" category="verbs">Verbos</a>
+                    <a href="#" class="category_item" category="emotions">Emociones</a>
+                </div>
+                <section class="products-list" id="products-list">
+                    <div class="product-item" category="adjectives">
+                        <video height="205px" width="205px" controls>
+                            <source src="videos/bonita.mp4" type="video/mp4">
+                        </video>
+                        <a href="#">Bonita</a>
+                    </div>
+                    <div class="product-item" category="adjectives">
+                        <video height="205px" width="205px" controls>
+                            <source src="videos/inteligente.mp4" type="video/mp4">
+                        </video>
+                        <a href="#">Inteligente</a>
+                    </div>
+                    <div class="product-item" category="family">
+                        <video height="205px" width="205px" controls>
+                            <source src="videos/abuelo.mp4" type="video/mp4">
+                        </video>
+                        <a href="#">Abuelo</a>
+                    </div>
+                    <div class="product-item" category="family">
+                        <video height="205px" width="205px" controls>
+                            <source src="videos/mamá.mp4" type="video/mp4">
+                        </video>
+                        <a href="#">Mamá</a>
+                    </div>
+                    <div class="product-item" category="verbs">
+                        <video height="205px" width="205px" controls>
+                            <source src="videos/controlar.mp4" type="video/mp4">
+                        </video>
+                        <a href="#">Controlar</a>
+                    </div>
+                    <div class="product-item" category="verbs">
+                        <video height="205px" width="205px" controls>
+                            <source src="videos/hacer.mp4" type="video/mp4">
+                        </video>
+                        <a href="#">Hacer</a>
+                    </div>
+                    <div class="product-item" category="emotions">
+                        <video height="205px" width="205px" controls>
+                            <source src="videos/hacer.mp4" type="video/mp4">
+                        </video>
+                        <a href="#">Sorpresa</a>
+                    </div>
+                    <div class="product-item" category="emotions">
+                        <video height="205px" width="205px" controls>
+                            <source src="videos/hacer.mp4" type="video/mp4">
+                        </video>
+                        <a href="#">Tristeza</a>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>© Grupo X - Todos los derechos reservados</p>
+        </div>
+    </footer>
+    
+</body>
+
+</html>

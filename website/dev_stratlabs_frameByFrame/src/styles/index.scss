@@ -1,0 +1,13 @@
+@import "./_notification";
+@import "./_pulse";
+
+:root {
+  font-family: "BRSonoma";
+  font-size: 16px;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}

@@ -1,0 +1,82 @@
+/*busquedaTexto.css */
+
+.BusquedaTexto__all {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.BusquedaTexto__container {
+  text-align: center;
+  width: 95%;
+  flex: 1; /* Add this line to make the container fill the remaining vertical space */
+  max-width: 100%; /* Add this line to ensure the container doesn't exceed the webpage width */
+  margin: 0 auto; 
+}
+
+.BusquedaTexto__page {
+  max-width: 100%;
+}
+
+.BusquedaTexto__lsp-search {
+  text-align: center;
+  color: white;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.BusquedaTexto__search-options {
+  display: flex;
+  width: 100%;
+  height: 90%;
+  margin-top: 0.5vw;
+  margin-bottom: 0.5vw;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+
+.BusquedaTexto__inputSearch {
+  width: 60%; /* Decreased width to accommodate the button */
+  padding: 1vh 0; /* Combined padding-top and padding-bottom */
+  font-size: 0.9rem;
+  font-weight: 400;
+  padding-left: 0.5vw;
+  border: 1px solid #ccc;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.BusquedaTexto__inputSearch:focus {
+  -webkit-box-shadow: 0 0 8px var(--bs-input);
+  box-shadow: 0 0 8px var(--bs-input);
+  border-color: var(--bd-input);
+  outline: medium none;
+}
+
+.BusquedaTexto__inputSearchButton {
+  width: 4%; /* Increased width to occupy more space */
+  padding: 1vh 0; /* Combined padding-top and padding-bottom */
+  font-size: 1rem;
+  font-weight: 400;
+  border: 1px solid #ccc;
+  background-color: var(--secondary);
+  color: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.BusquedaTexto__inputSearchButton:hover {
+  -webkit-filter: brightness(1.6);
+  filter: brightness(1.6);
+}
+
+.BusquedaTexto__container-grid {
+  text-align: center;
+  padding-top: 3vw;
+  width: 100%;
+  max-width: 100%; /* Add this line to ensure the container doesn't exceed the webpage width */
+  margin: 0 auto; /* Add this line to center the container horizontally */
+}

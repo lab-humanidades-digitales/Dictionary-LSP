@@ -1,0 +1,63 @@
+.recording-pulse {
+  border-radius: 50%;
+  box-shadow: 0 0 0 #e7464c;
+  animation: recording-pulse 1s infinite;
+}
+
+.countdown-pulse {
+  border-radius: 50%;
+  box-shadow: 0 0 0 #344866;
+  animation: countdown-pulse 1s infinite;
+}
+
+@-webkit-keyframes countdown-pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(52, 72, 102, 0.4);
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 10px rgba(52, 72, 102, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(52, 72, 102, 0);
+  }
+}
+@keyframes countdown-pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(52, 72, 102, 0.4);
+    box-shadow: 0 0 0 0 rgba(52, 72, 102, 0.4);
+  }
+  70% {
+    -moz-box-shadow: 0 0 0 10px rgba(52, 72, 102, 0);
+    box-shadow: 0 0 0 10px rgba(52, 72, 102, 0);
+  }
+  100% {
+    -moz-box-shadow: 0 0 0 0 rgba(52, 72, 102, 0);
+    box-shadow: 0 0 0 0 rgba(52, 72, 102, 0);
+  }
+}
+
+@-webkit-keyframes recording-pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(231, 70, 76, 0.4);
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 10px rgba(231, 70, 76, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(231, 70, 76, 0);
+  }
+}
+@keyframes recording-pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(231, 70, 76, 0.4);
+    box-shadow: 0 0 0 0 rgba(231, 70, 76, 0.4);
+  }
+  70% {
+    -moz-box-shadow: 0 0 0 10px rgba(231, 70, 76, 0);
+    box-shadow: 0 0 0 10px rgba(231, 70, 76, 0);
+  }
+  100% {
+    -moz-box-shadow: 0 0 0 0 rgba(231, 70, 76, 0);
+    box-shadow: 0 0 0 0 rgba(231, 70, 76, 0);
+  }
+}

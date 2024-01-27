@@ -1,12 +1,12 @@
 <div align="center">
 
+<!-- <p align="center">
+<img src="docs/assets/banner2.png" width="100%">
+</p> -->
 <p align="center">
-<img src="assets/Banner.png" width="100%">
+<!-- <img src="docs/assets/banner_animation_v2.gif" width="100%"> -->
+<img src="https://github.com/Diccionario-LSP/Docs/blob/main/docs/assets/banner_animation_v2.gif" width="100%">
 </p>
-<p align="center">
-<img src="assets/dvlsp-banner_v3.gif" width="75%">
-</p>
-
 
 
 <!-- [📚Documentation](https://deeplabcut.github.io/DeepLabCut/README.html) |

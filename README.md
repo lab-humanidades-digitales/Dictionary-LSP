@@ -12,7 +12,7 @@
 <!-- [📚Documentation](https://deeplabcut.github.io/DeepLabCut/README.html) |
 [🛠️ Installation](https://deeplabcut.github.io/DeepLabCut/docs/installation.html) | -->
 [✌️Dictionary LSP](https://www.dvlsp.link) |
-[🗃️Peruvian Sign Language Database](https://drive.google.com/drive/folders/1-DZjxfWbwWhDerW2M5lRFjjR5KC7TWTX?usp=sharing) 
+[🗃️Peruvian Database](https://drive.google.com/drive/folders/1-DZjxfWbwWhDerW2M5lRFjjR5KC7TWTX?usp=sharing) 
 
 
 
